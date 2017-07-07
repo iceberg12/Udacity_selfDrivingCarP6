@@ -7,14 +7,14 @@ The goal of this project is implementing a sensor fusion between Lidar and Radar
 
 Please refer to the setup that can be found here https://github.com/udacity/CarND-Extended-Kalman-Filter-Project. Once the install for uWebSocketIO is complete, the main program can be built and run by doing the following from the project top directory.
 
-Rebuild
+Build
 1. mkdir build && cd build
 2. cmake .. && make
-3. ./ExtendedKF ../data/sample-laser-radar-measurement-data-1.txt output1.txt > input2.log
+3. ./ExtendedKF ../data/sample-laser-radar-measurement-data-1.txt output1.txt > input1.log
 
-Delete old build
-4. cd ..
-5. rm -r build
+Delete old build before rebuild again
+1. cd ..
+2. rm -r build
 
 After that, we can start the Term 2 Simulator to simulate the car running and see the car state space model being updated.
 
