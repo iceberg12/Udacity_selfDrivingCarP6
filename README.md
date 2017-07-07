@@ -30,7 +30,7 @@ Review the Kalman filter algorithm map
 
 ![alt text][overview]
 
-The normal Kalman filter is used for Lidar measurement because its updating function is linear y = z - H*x. Extended Kalman filter is used for Radar measurement because its measurement is in polar coordinate, thus  
+The normal Kalman filter is used for Lidar measurement because its updating function is linear. Extended Kalman filter is used for Radar measurement because its measurement is in polar coordinate, thus Jacobian matrix should be used. Logics are within the code implementation.
 
 ## Implementation
 
