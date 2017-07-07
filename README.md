@@ -3,6 +3,9 @@ Self-Driving Car Engineer Nanodegree Program
 
 The goal of this project is implementing a sensor fusion between Lidar and Radar sensor measurements using Kalman filter. These two sensors are the most common ones for self-driving cars. They are used for estimating the current location and velocity of the car.
 
+[overview]: ./images/overview.png
+[simulator]: ./images/simulator.png
+
 ## Setup 
 
 Please refer to the setup that can be found here https://github.com/udacity/CarND-Extended-Kalman-Filter-Project. Once the install for uWebSocketIO is complete, the main program can be built and run by doing the following from the project top directory.
@@ -25,7 +28,7 @@ Requirements: RMSE of state vectors should be less than [0.11, 0.11, 0.52, 0.52]
 
 Review the Kalman filter algorithm map
 
-image 1
+![alt text][overview]
 
 The normal Kalman filter is used for Lidar measurement because its updating function is linear y = z - H*x. Extended Kalman filter is used for Radar measurement because its measurement is in polar coordinate, thus  
 
@@ -40,4 +43,4 @@ Structure of source files:
 
 ## Evaluation
 
-image 2
+![alt text][simulator]
