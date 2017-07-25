@@ -1,5 +1,5 @@
 # Extended Kalman Filter C++ Project
-Self-Driving Car Engineer Nanodegree Program
+[Self-Driving Car Engineer Nanodegree Program]
 ---
 
 The goal of this project is implementing a sensor fusion between Lidar and Radar sensor measurements using Kalman filter. These two sensors are the most common ones for self-driving cars. They are used for estimating the current location and velocity of the car.
